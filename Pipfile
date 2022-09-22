@@ -4,6 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+flask = "*"
+celery = "*"
+python-dotenv = "*"
+redis = "*"
+rabbitmq = "*"
+sqlalchemy = "*"
+mysql-connector-python = "*"
+pymssql = "*"
+mysqlclient = "*"
+psycopg2 = "*"
+pytest = "*"
 
 [dev-packages]
 
